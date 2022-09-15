@@ -80,6 +80,12 @@
   }
 }
 @media (max-width: 991.98px) {
+  .triangles {
+    display: none;
+  }
+  .long {
+    width: 100%;
+  }
   .block {
     display: none;
   }
@@ -138,6 +144,16 @@
   }
 }
 @media (max-width: 767.98px) {
+  .prev {
+    margin-top: 120px;
+    margin-left: -25px;
+  }
+  .next {
+    top: 120px;
+  }
+  .hoverafterimg {
+    display: none;
+  }
   .section1and2 {
     background-repeat: repeat-x;
     margin-right: 0;
@@ -189,9 +205,6 @@
     background: #C57226;
     padding: 5px;
   }
-  .triangles {
-    display: none;
-  }
   .viddil-old {
     margin-top: -97px;
     margin-bottom: 10px;
@@ -231,31 +244,59 @@
     display: inline-block;
     position: absolute;
     margin-top: -75%;
-    margin-left: 25%;
+    margin-left: 17%;
     text-align: center;
     color: black;
   }
   .people-block:active h3 {
     text-shadow: #ff0000 1px 0 0px, #ff0000 0 1px 0px, #ff0000 -1px 0 0px, #ff0000 0 -1px 0px;
   }
-  .people-block:active .podlozhka {
-    display: inline-block;
-    position: absolute;
-    height: 100%;
-    width: 80%;
-    margin: 5% 0px 0px 10%;
-    border-radius: 13px;
-    background-color: rgba(255, 0, 0, 0.5);
-  }
 }
 @media (max-width: 575.98px) {
+  .box1 {
+    margin-left: 20%;
+  }
+  .box2 {
+    margin-left: 20%;
+  }
+  .box11 {
+    margin-top: 30px;
+  }
+  #pos {
+    text-align: center;
+    font-size: 30px;
+    margin-left: 10%;
+  }
+  .section3 {
+    padding-top: 20px;
+  }
+  .section3 h3 {
+    text-align: center;
+  }
+  .ne-pos {
+    font-size: 30px;
+    margin-left: 10%;
+  }
+  .prev {
+    margin-top: 140px;
+    margin-left: -18px;
+  }
+  .next {
+    top: 140px;
+  }
+  .star {
+    width: auto;
+  }
+  .star p {
+    font-size: 9px;
+  }
   .section4 h2 {
     text-align: center;
   }
   .panel {
     display: inline-block;
     position: absolute;
-    margin-left: 15%;
+    margin-left: 0;
     border: solid white 1px;
     height: 47px;
     width: 47px;
@@ -265,7 +306,7 @@
     border-color: black;
   }
   .menu {
-    right: 15%;
+    right: 25%;
     font-size: 10px;
     height: auto;
     width: auto;
