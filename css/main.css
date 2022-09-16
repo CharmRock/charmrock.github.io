@@ -253,6 +253,20 @@
   }
 }
 @media (max-width: 575.98px) {
+  #h1 {
+    font-size: 30px;
+  }
+  .section1 .subtitle {
+    font-size: 17px;
+  }
+  .section1 .subtitle br {
+    display: none;
+  }
+  .button {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
   .box1 {
     margin-left: 20%;
   }
