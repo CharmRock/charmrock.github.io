@@ -52,7 +52,11 @@
 		<a class="button" href="news.html">Переглянути новини</a>
 	</div>
 	<div class="col-xl-3 col-lg-5 offset-lg-0 col-md-5 offset-md-1 col-sm-5 offset-sm-1 col-8 offset-2" >
-		<a class="button">Про організацію</a>
+		<div class="about"><a class="button">Про організацію</a></div>
+	</div>
+	<div class="aboutsheet" toggle="modal">
+		<h2> Про організацію</h2>
+		<p>Центр соціальних послуг Буцької селищної ради був утворений згідно Рішення сесії в 2020 році</p>
 	</div>
 </div>
 <div class="row">
@@ -209,17 +213,17 @@
 					<div class="people-block">
 						<div class="podlozhka"></div>
 <picture>
-	<img class="photo" src="" alt="Director">
+	<img class="photo" src="img/profile.jpg" alt="Director">
 </picture>
 <h3>Директор</h3>
-<p>СТЕЦЕНКО <br> Тетяна Олександрівна</p>	
+<p>СТЕЦЕНКО <br> Тетяна <br>Олександрівна</p>	
 			</div>
 			<div class="people-block">
 				<div class="podlozhka"></div>
 				<picture>
-		<img class="photo" src="" alt="FSR">
+		<img class="photo" src="img/profile.jpg" alt="FSR">
 				</picture>
-				<h3>Фахівець з соціальних робіт</h3>
+				<h3>Фахівець з соціальних <br>робіт</h3>
 				<p>ТИМОШЕНКО <br> Аліна Юріївна</p>
 			</div>
 		<div class="people-block">
@@ -233,10 +237,64 @@
 				<div class="people-block">
 					<div class="podlozhka"></div>
 <picture>
-	<img class="photo" src="" alt="Sotsrobitnyk1">
+	<img class="photo" src="img/profile.jpg" alt="Sotsrobitnyk1">
 </picture>
 <h3>Соціальний робітник</h3>
 <p>АЙНЕТДІНОВА <br> Галина <br> Володимирівна</p>	
+			</div>
+			<div class="people-block">
+				<div class="podlozhka"></div>
+				<picture><img src="img/profile.jpg" alt="Sotsrobitnyk2" class="photo"></picture>
+				<h3>Соціальний робітник</h3>
+				<p>ДУБИК <br>Людмила <br>Михайлівна</p>
+			</div>
+			<div class="people-block">
+				<div class="podlozhka"></div>
+				<picture><img src="img/profile.jpg" alt="Sotsrobitnyk3" class="photo"></picture>
+				<h3>Соціальний робітник</h3>
+				<p>ДЯЧЕНКО <br>Альона Вікторівна</p>
+			</div>
+			<div class="people-block">
+				<div class="podlozhka"></div>
+				<picture><img src="img/profile.jpg" alt="Sotsrobitnyk4" class="photo"></picture>
+				<h3>Соціальний робітник</h3>
+				<p>ШАПОВАЛОВ <br>Сергій <br>Миколайович</p>
+			</div>
+			<div class="people-block">
+				<div class="podlozhka"></div>
+				<picture><img src="img/profile.jpg" alt="Sotsrobitnyk5" class="photo"></picture>
+				<h3>Соціальний робітник</h3>
+				<p>МИРОНЮК <br>Людмила <br>Вікторівна</p>
+			</div>
+			<div class="people-block">
+				<div class="podlozhka"></div>
+				<picture><img src="img/profile.jpg" alt="Sotsrobitnyk6" class="photo"></picture>
+				<h3>Соціальний робітник</h3>
+				<p>МІНЯЙЛО <br>Алла Андріївна</p>
+			</div>
+			<div class="people-block">
+				<div class="podlozhka"></div>
+				<picture><img src="img/profile.jpg" alt="Sotsrobitnyk7" class="photo"></picture>
+				<h3>Соціальний робітник</h3>
+				<p>ЧОРНА <br>Тетяна Панасівна</p>
+			</div>
+			<div class="people-block">
+				<div class="podlozhka"></div>
+				<picture><img src="img/profile.jpg" alt="Sotsrobitnyk8" class="photo"></picture>
+				<h3>Соціальний робітник</h3>
+				<p>ТЕРТИЧНА <br>Світлана Василівна</p>
+			</div>
+			<div class="people-block">
+				<div class="podlozhka"></div>
+				<picture><img src="img/profile.jpg" alt="Sotsrobitnyk9" class="photo"></picture>
+				<h3>Соціальний робітник</h3>
+				<p>ОЖЕРЕЛЬЄВА <br>Людмила <br>Анатоліївна</p>
+			</div>
+			<div class="people-block">
+				<div class="podlozhka"></div>
+				<picture><img src="img/profile.jpg" alt="Sotsrobitnyk10" class="photo"></picture>
+				<h3>Соціальний робітник</h3>
+				<p>АНДРУЩЕНКО <br>Тетяна Миколаївна</p>
 			</div>
 				</div>
 	</div>
@@ -265,6 +323,13 @@
 					event.preventDefault();
 					$('.menu').show(); });
 					$(document).on('click',function(e){if(!(($(e.target).closest('.menu').length > 0 ) || ($(e.target).closest('.panel').length > 0))){$('.menu').hide();}});
+$('.about').on('click', function(event){
+					event.preventDefault();
+					$('.aboutsheet').show(); });
+$('.aboutsheet').on('click', function(event){
+					event.preventDefault();
+					$('.aboutsheet').hide(); });
+$(document).on('click',function(e){if(!(($(e.target).closest('.aboutsheet').length > 0 ) || ($(e.target).closest('.about').length > 0))){$('.aboutsheet').hide();}});
 				$('.people-slider').slick({
 		dots: false,
 		  infinite: true,
