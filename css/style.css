@@ -378,5 +378,27 @@ border-radius: 30px;
 	width: 40px;
 	background: #fff;
 	position: fixed;
-
+}
+.newsh1 {
+	text-align: center;
+	background-color: black;
+	color: yellow;
+	margin-bottom: 0;
+}
+.mainlink {
+	position: fixed;
+	top: 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 12px;
+}
+.mainlink:hover {
+	color: yellow;
+	text-decoration: underline;
+}
+.cspphoto {
+	width: 100%;
+}
+.collapse {
+	display: block;
 }

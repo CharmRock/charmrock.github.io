@@ -35,7 +35,7 @@
 		</div>
 	</div>
 </div>
-<div class="panel"></div>
+<div class="menu-button"></div>
 </div>
 	<div class="container">
 		<div class="section1">
@@ -213,7 +213,7 @@
 					<div class="people-block">
 						<div class="podlozhka"></div>
 <picture>
-	<img class="photo" src="img/profile.jpg" alt="Director">
+	<img class="photo" src="img/director.jpg" alt="Director">
 </picture>
 <h3>Директор</h3>
 <p>СТЕЦЕНКО <br> Тетяна <br>Олександрівна</p>	
@@ -221,7 +221,7 @@
 			<div class="people-block">
 				<div class="podlozhka"></div>
 				<picture>
-		<img class="photo" src="img/profile.jpg" alt="FSR">
+		<img class="photo" src="img/fcr.jpg" alt="FSR">
 				</picture>
 				<h3>Фахівець з соціальних <br>робіт</h3>
 				<p>ТИМОШЕНКО <br> Аліна Юріївна</p>
@@ -319,10 +319,10 @@
 	<script src='slick/slick.min.js'></script>
 	<script>
 				$(document).ready(function(){
-				$('.panel').on('click', function(event){
+				$('.menu-button').on('click', function(event){
 					event.preventDefault();
 					$('.menu').show(); });
-					$(document).on('click',function(e){if(!(($(e.target).closest('.menu').length > 0 ) || ($(e.target).closest('.panel').length > 0))){$('.menu').hide();}});
+					$(document).on('click',function(e){if(!(($(e.target).closest('.menu').length > 0 ) || ($(e.target).closest('.menu-button').length > 0))){$('.menu').hide();}});
 $('.about').on('click', function(event){
 					event.preventDefault();
 					$('.aboutsheet').show(); });
