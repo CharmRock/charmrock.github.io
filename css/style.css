@@ -402,3 +402,20 @@ border-radius: 30px;
 .collapse {
 	display: block;
 }
+.news1 {
+margin-left: 50%;
+transform: translateX(-50%);
+color: black;
+}
+.news1background {
+	background-color: blue;
+}
+.news1body {
+	background-color: white;
+	
+}
+.news1image {
+	width: 100%;
+	height: 100%;
+	padding-top: 5px;
+}
