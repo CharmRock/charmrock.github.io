@@ -41,6 +41,9 @@
   font-size: 27px;
 }
 @media (max-width: 1199.98px) {
+  .aboutsheet {
+    padding: 2%;
+  }
   .mainlink {
     top: 30px;
   }
@@ -78,8 +81,7 @@
   .post {
     display: none;
   }
-  .box1,
-  .box2 {
+  .box {
     margin-bottom: 35px;
     margin-left: 15px;
   }
@@ -144,8 +146,7 @@
   .viddil-fam img {
     margin-left: -10px;
   }
-  .box1,
-  .box2 {
+  .box {
     margin-bottom: 35px;
     margin-left: 10px;
   }
@@ -164,19 +165,28 @@
   }
 }
 @media (max-width: 767.98px) {
+  .people-block {
+    margin-right: 0;
+  }
   .aboutsheet h2 {
     font-size: 18px;
   }
   .aboutsheet p {
-    font-size: 14px;
+    font-size: 12px;
   }
   .prev {
     margin-top: 80px;
-    margin-left: -35px;
+    margin-left: -25px;
+    background-size: 100%;
+    width: 45px;
+    height: 70px;
   }
   .next {
     top: 80px;
-    right: -20px;
+    right: -25px;
+    background-size: 100%;
+    width: 45px;
+    height: 70px;
   }
   .hoverafterimg {
     display: none;
@@ -307,10 +317,7 @@
     margin-top: 5px;
     margin-bottom: 5px;
   }
-  .box1 {
-    margin-left: 20%;
-  }
-  .box2 {
+  .box {
     margin-left: 20%;
   }
   .box11 {
@@ -337,6 +344,10 @@
   }
   .next {
     top: 140px;
+    right: -3px;
+  }
+  .people-slider {
+    left: 7px;
   }
   .star {
     width: auto;

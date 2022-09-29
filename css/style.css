@@ -50,7 +50,7 @@ body{
 .aboutsheet {
 	display: none;
 	position: fixed;
-	height: 50%;
+	height: auto;
 	width: 50%;
 	left: 50%;
 top: 50%;
@@ -66,11 +66,13 @@ transform: translate(-50%,-50%);
 text-align: center;
 color: black;
 font-size: 25px;
+padding-bottom: 2px;
 }
 .aboutsheet p{
 padding-top: 10px;
 color: black;
 font-size: 15px;
+margin-bottom: 5px;
 }
 .inline-header {
 	text-decoration: none;
@@ -109,11 +111,6 @@ font-size: 15px;
 	display: inline-block;
 	font-size: 36px;
 	margin-right: 20px;
-}
-.ne-pos {
-	display: inline-block;
-	text-shadow: 1px 1px 2px red;
-	font-size: 36px;
 }
 .section1 {
 	background: #fff url(../img/main-background.png) center center no-repeat;
@@ -196,7 +193,7 @@ float: left;
 .down {
 	margin-bottom: 10px;
 }
-.box1, .box2 {
+.box {
 	background-color: white;
 	height: 166px;
 	width: 200px;
@@ -207,11 +204,8 @@ margin: 0px 15px 30px 0px;
 vertical-align: top;
 border-radius: 30px;
 }
-.box1 {
+.box {
 	box-shadow: 1px 5px 5px #7D532B;
-}
-.box2 {
-	box-shadow: 1px 5px 5px red;
 }
 .box11, .box26, .box27, .box30 {
 	padding:32px 0px;
@@ -260,10 +254,7 @@ border-radius: 30px;
 margin-top: -55px;
 margin-left: 30px;
 }
-.box1 img {
-	position: absolute;
-}
-.box2 img {
+.box img {
 	position: absolute;
 }
 .box21 img {
@@ -352,6 +343,7 @@ width: 50px;
 height: 75px;
 z-index: 1;
 background: transparent url(../img/leftbutton.png) center center no-repeat;
+
 border: none;
 position: absolute;
 margin-top: 140px;
