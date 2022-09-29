@@ -293,6 +293,9 @@
   }
 }
 @media (max-width: 575.98px) {
+  .people-block {
+    margin-right: 15px;
+  }
   .people-block p,
   .people-block h3 {
     font-size: 24px;
@@ -334,17 +337,17 @@
   .section3 h3 {
     text-align: center;
   }
-  .ne-pos {
-    font-size: 30px;
-    margin-left: 10%;
-  }
   .prev {
     margin-top: 140px;
     margin-left: -18px;
+    width: 50px;
+    height: 75px;
   }
   .next {
     top: 140px;
     right: -3px;
+    width: 50px;
+    height: 75px;
   }
   .people-slider {
     left: 7px;
