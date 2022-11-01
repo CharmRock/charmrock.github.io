@@ -406,7 +406,6 @@ color: black;
 }
 .news1body {
 	background-color: white;
-	
 }
 .news1image {
 	width: 100%;
@@ -418,4 +417,23 @@ color: black;
 }
 .news2background:not(.collapsed) {
 	background-color: rgb(255,255,155);
+}
+.news2body {
+	background-color: rgb(255,255,175);
+	color: rgb(57,24,0);
+}
+.news2link {
+	text-decoration: none;
+}
+.news2link:hover {
+	text-decoration: underline;
+	color: green;
+}
+.news2link:visited {
+	color: green;
+}
+.news2photo {
+	width: 100%;
+	height: 100%;
+	padding-top: 5px;
 }
