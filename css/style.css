@@ -424,6 +424,7 @@ color: black;
 }
 .news2link {
 	text-decoration: none;
+	color: rgb(57,24,0);
 }
 .news2link:hover {
 	text-decoration: underline;
