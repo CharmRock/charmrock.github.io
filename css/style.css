@@ -396,7 +396,7 @@ border-radius: 30px;
 .collapse {
 	display: block;
 }
-.news1 {
+.news {
 margin-left: 50%;
 transform: translateX(-50%);
 color: black;
@@ -407,7 +407,7 @@ color: black;
 .news1body {
 	background-color: white;
 }
-.news1image {
+.newsimage {
 	width: 100%;
 	height: 100%;
 	padding-top: 5px;
@@ -422,19 +422,10 @@ color: black;
 	background-color: rgb(255,255,175);
 	color: rgb(57,24,0);
 }
-.news2link {
-	text-decoration: none;
-	color: rgb(57,24,0);
-}
-.news2link:hover {
+.newslink:hover {
 	text-decoration: underline;
 	color: green;
 }
-.news2link:visited {
+.newslink:visited {
 	color: green;
-}
-.news2photo {
-	width: 100%;
-	height: 100%;
-	padding-top: 5px;
 }
