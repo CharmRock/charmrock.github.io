@@ -102,7 +102,15 @@ margin-bottom: 5px;
 	border-radius: 30px;
 	text-align: center;
 	}
-	
+.viddil-vpo {
+	color: #bf0000;
+	background-color: white;
+	padding: 15px;
+	height: 330px;
+	box-shadow: 0px 4px 4px #50A058;
+	border-radius: 30px;
+	text-align: center;
+	}	
 .brown-writings {
 	color: #7D532B;
 }
@@ -335,6 +343,13 @@ padding: 0;
 background: transparent;
 margin-left: -20px;
 margin-top: -45px;
+}
+.viddil-vpo img {
+height: 50%;
+padding: 0;
+margin-left: -10px;
+margin-top: 10px;
+background: transparent;
 }
 .people-slider {
 	position: relative;

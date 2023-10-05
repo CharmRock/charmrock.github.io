@@ -10,7 +10,7 @@
 		text-decoration: underline;
 	}
 }
-.panel {
+.menu-button {
 		display: none;
 	}
 .menu {
@@ -27,7 +27,6 @@
 			position: absolute;
 			margin-top: -75%;
 			margin-left: 25%;
-			text-align: center;
 			color: black;
 		}
 		h3 {
@@ -44,13 +43,36 @@
 		}
 	}
 }
+.section4 {
+		h3 {
+		font-size: 27px;
+	}}
 @media (max-width: 1199.98px) {
+	.aboutsheet {
+		padding: 2%;
+	}
+	.mainlink {
+	top: 30px;
+}
+	.section4 {
+		h3 {
+		font-size: 22px;
+	}}
+	.prev {
+margin-top: 100px;
+	}
+	.next {
+		top: 100px;
+	}
 	.viddil {
 		&-old img {
 			margin-left: -65px;
 		}
 		&-fam img {
 			margin-left: -40px
+		}
+		&-vpo img {
+		height: 40%;
 		}
 	}
 	.section1and2 {
@@ -71,14 +93,14 @@
 	.post {
 				display: none;
 	}
-	.box1, .box2 {
+	.box {
 		margin-bottom: 35px;
 		margin-left: 15px;
 	}
 	.me {
 		margin-top: 7px;
 	}
-	.panel {
+	.menu-button {
 		display: none;
 	}
 	.menu {
@@ -86,10 +108,23 @@
 }
 }
 @media (max-width: 991.98px) {
+	.prev {
+margin-top: 120px;
+	}
+	.next {
+		top: 120px;
+	}
+	.triangles {
+		display: none;
+
+	}
+	.long {
+width: 100%;
+	}
 		.block {
 		display: none;
 	}
-	.panel {
+	.menu-button {
 		display: none;
 	}
 	.post {
@@ -128,7 +163,10 @@ margin-right: 30px;
 			margin-left: -10px;
 		}
 	}
-	.box1, .box2 {
+	.viddil-vpo {
+	margin-top: 20px;
+	}
+	.box {
 		margin-bottom: 35px;
 		margin-left: 10px;
 	}
@@ -149,6 +187,33 @@ margin-right: 30px;
 }
 }
 @media (max-width: 767.98px) {
+	.people-block {
+		margin-right: 0;}
+	.aboutsheet {
+		h2 {
+			font-size: 18px;
+		}
+		p {
+			font-size: 12px;
+		}
+	}
+	.prev {
+margin-top: 80px;
+margin-left: -25px;
+background-size: 100%;
+width: 45px;
+height: 70px;
+	}
+	.next {
+		top: 80px;
+		right:-25px;
+		background-size: 100%;
+width: 45px;
+height: 70px;
+	}
+	.hoverafterimg {
+		display: none;
+	}
 .section1and2 {
 		background-repeat: repeat-x;
 		margin-right: 0;
@@ -159,7 +224,7 @@ margin-right: 30px;
 			display: none;
 		}
 	}
-	.panel {
+	.menu-button {
 		display: inline-block;
 		position: absolute;
 		margin-left: 25%;
@@ -203,13 +268,13 @@ color: black;
 	background: #C57226;
 	padding: 5px;
 			}
-	.triangles {
-		display: none;
-
-	}
+	
 	.viddil-old {
 margin-top: -97px;
 margin-bottom: 10px;
+	}
+	.viddil-vpo {
+	margin-top: 10px;
 	}
 	.section1 {
 		h1 {
@@ -238,40 +303,101 @@ margin-bottom: 10px;
 }
 .people-block {
 	position: relative;
+p, h3 {
+font-size: 18px;
+}
 	&:active {
 			p {
 			display: inline-block;
 			position: absolute;
 			margin-top: -75%;
 			margin-left: 25%;
-			text-align: center;
 			color: black;
 		}
 		h3 {
 			text-shadow: #f00 1px 0 0px, #f00 0 1px 0px, #f00 -1px 0 0px, #f00 0 -1px 0px;
 		}
-		.podlozhka {
-			display: inline-block;
-			position: absolute;
-			height: 100%;
-			width: 80%;
-			margin: 5% 0px 0px 10%;
-			border-radius: 13px;
-			background-color: rgba(255,0,0,0.5);
-		}
 	}
 }
 }
 @media (max-width: 575.98px){
+	.people-block {
+	margin-right: 15px;}
+	.people-block {
+		p, h3 {
+font-size: 24px;
+}
+	}
+	.aboutsheet {
+		h2 {
+			font-size: 12px;
+		}
+		p {
+			font-size: 10px;
+		}
+	}
+	#h1 {
+		font-size: 30px;
+	}
+	.section1{
+		.subtitle {
+		font-size: 17px;
+		br {display: none;}
+	}
+	}
+	
+	.button {
+display: inline-block;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	.box {
+		margin-left: 20%;
+	}
+	.box11 {
+		margin-top: 30px;
+	}
+	#pos {
+	text-align: center;
+	font-size: 30px;
+	margin-left: 10%;
+}
+.section3 {
+		padding-top: 20px;
+		h3 {
+	text-align: center;
+}
+	}
+	.prev {
+margin-top: 140px;
+margin-left: -18px;
+width: 50px;
+height: 75px;
+	}
+	.next {
+		top: 140px;
+		right:-3px;
+		width: 50px;
+height: 75px;
+	}
+	.people-slider {
+		left: 7px;
+	}
+.star {
+	width: auto;
+	p {
+		font-size: 9px;
+	}	
+}
 .section4 {
 	h2 {
 		text-align: center;
 	}
 }
-.panel {
+.menu-button {
 		display: inline-block;
 		position: absolute;
-		margin-left: 15%;
+		margin-left: 0;
 		border: solid white 1px;
 		height: 47px;
 		width: 47px;
@@ -281,7 +407,7 @@ margin-bottom: 10px;
 		}
 		}
 		.menu {
-right: 15%;
+right: 25%;
 font-size: 10px;
 height: auto;
 width: auto;
@@ -301,7 +427,6 @@ color: black;
 		}
 		p {
 			margin: 3px;
-			
 		}
 	}
 	}
